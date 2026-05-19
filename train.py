@@ -7,7 +7,7 @@ from imblearn.over_sampling import SMOTE
 import joblib
 
 # 1. Load data
-df = pd.read_csv('"C:\Users\TEJESWAR A\Downloads\Dataset\creditcard.csv"')
+df = pd.read_csv('C:\Projects\Fraud Detection\Dataset\creditcard.csv')
 print("Shape:", df.shape)
 print(df['Class'].value_counts())
 
